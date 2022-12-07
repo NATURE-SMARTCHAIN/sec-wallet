@@ -9,9 +9,9 @@ const platform = os.platform()
 
 const default_config = {
     bin_folder: os.homedir() + '/Documents/komodo/src/',
-    chain_name: 'NAE',
-    coin_name: 'NAE',
-    chain_launch_params: '-ac_supply=100000 -addnode=95.216.196.64 -ac_cc=1337 -printtoconsole'
+    chain_name: 'NATURE',
+    coin_name: 'NATURE',
+    chain_launch_params: '-ac_supply=1999999999 -ac_reward=1000000000 -ac_perc=100000000 -ac_snapshot=1440 -ac_blocktime=120 -ac_cbmaturity=2 -ac_public=1 -ac_cc=666 -ac_adaptivepow=1 -ac_founders=1 -ac_script=a914928d456c145599dad2de18c4afa1cb3c34692ec587 -pubkey=036a07e8ab25e47e15a6fd272195c7c02270e25d9713b439928e76bde021ca9922 -addnode=44.235.28.232 -addnode=44.234.227.211 -addnode=52.40.137.187 -addnode=44.212.140.52 -addnode=3.210.245.206 -printtoconsole'
 }
 
 // Example launch command
